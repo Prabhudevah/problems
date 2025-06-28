@@ -8,6 +8,6 @@ function sumOfDigits(number) {
   }
   
 
-  let num = 1234;
+  let num = 1234567891011;
   console.log("Sum of digits of", num, "is:", sumOfDigits(num));
   

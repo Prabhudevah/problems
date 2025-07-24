@@ -1,0 +1,23 @@
+
+body{
+     display: flex;
+   justify-content: center;
+   align-items:center;
+   box-shadow: 2px;
+   height:100vh;
+
+
+
+}
+
+.card {
+    padding: 30px;
+    margin:10px;
+    border: 2px solid;
+
+  
+}
+.card:hover{
+    background-color:brown
+
+}

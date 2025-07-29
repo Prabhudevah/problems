@@ -1,23 +1,25 @@
-const str="Bhavana";
-console.log(str.slice(-1,));
+// const str="Bhavana";
+// console.log(str.slice(3,));
 
-function con(...parame){
-    newstr="";
-    for(let i=0; i<parame.length; i++){
-        newstr+=parame[i];
+// function con(...parame){
+//     newstr="";
+//     for(let i=0; i<parame.length; i++){
+//         newstr+=parame[i];
       
-    }
-    console.log(newstr);
+//     }
+//     console.log(newstr);
 
-}
-con("prabhu"," ","kumar"," ","reddy");
-con("123"," ","456"," ","7890");
+// }
+// con("prabhu"," ","kumar"," ","reddy");
+// con("123"," ","456"," ","7890");
 
 
-let text = "Please visit Microsoft!";
-let newText = text.replace(/MICROSOFT/ig, "W3Schools");
-console.log(newText); 
+// let text = "Please visit Microsoft!";
+// let newText = text.replace(/MICROSOFT/ig, "W3Schools");
+// console.log(newText); 
 
 const str="i an the best devloper in java i know html css js";
-console.log(str.split(" "));
+console.log(str.split("  ").join("prabhu"));
+console.log(str);
+
 

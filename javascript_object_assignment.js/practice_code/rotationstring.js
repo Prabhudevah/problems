@@ -1,5 +1,5 @@
 let s1 = "abc";
-let s2 = "cab";
+let s2 = "cab99";
 
 function rotations(s1, s2) {
     // If lengths are not equal, they can't be rotations
